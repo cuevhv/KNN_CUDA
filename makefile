@@ -9,7 +9,7 @@ reqs :
 ifndef NINJA 
 	sudo cp ./ninja /usr/bin
 endif 
-	pip3 install -r requirements.txt
+#	pip3 install -r requirements.txt
 
 install :
 	pip3 install --upgrade dist/*.whl
